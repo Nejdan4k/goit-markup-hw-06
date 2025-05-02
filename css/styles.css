@@ -1,0 +1,108 @@
+.hiden{
+    display: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #fff;
+}
+
+/* reset */
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+button{
+    cursor: pointer;
+}
+
+/*common*/
+
+.container {
+    max-width: 320px;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: 768px){
+    .container {
+        max-width: 768px;
+      }
+  }
+
+  @media screen and (min-width: 1158px){
+    .container {
+        max-width: 1158px;
+        padding: 0 15px;
+      }
+  }
+
+  /* header*/
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+  }
+
+  .header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-list,
+  .contacts{
+    display: none;
+  }
+
+  .logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+  }
+  .header-logo{
+    padding: 16px 0;
+    display: block;
+    
+  }
+  .header-logo .logo-part {
+    color: #2e2f42;
+  }
+  
+  .burger-btn{
+    padding: 0%;
+    border: none;
+    background-color: transparent;
+  }
+
+  .burger-icon{
+    display: block;
+    fill: #2f2f37;;
+  }
+  
